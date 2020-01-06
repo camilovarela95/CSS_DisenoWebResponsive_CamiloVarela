@@ -1,0 +1,292 @@
+.fondo {
+    font-family: 'Dancing Script';
+    background-color: #02010A;
+    margin: 0px;
+    width:100%;
+}
+
+.contenido {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+	padding: 8vh 1vw;
+	margin-bottom: auto;
+	border-radius: 10px 10px 0 0;
+	background-color: #5b7989;
+	color: #ffffff;
+	text-shadow: 3px 2px 0 #02010a;
+	text-align: left;
+ }
+
+
+#encabezado{
+	display: block;
+	margin: 0 auto;
+}	
+
+ #indice {
+	float: right;
+}
+	#indice ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 10px;
+	}
+	
+		#indice ul li {
+			display: inline-block;
+			
+		}
+			
+			#indice ul li a {
+				display: block;
+				padding: 0 30px;
+				color: #ffffff;
+				text-shadow: 0px 0px 0px #000000;
+				
+			}
+
+			#indice ul li a.seleccion {
+				text-decoration: none;
+				
+			}
+
+.container {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.container .central{
+	color: black;
+	background-color:  #82c3a6;
+	box-sizing: border-box;
+	min-width: 150px;
+	padding: 50px;
+}
+
+
+
+.container .c2 {
+	color: black;
+	background-color: #F4F1BB;
+	box-sizing: border-box;
+	min-width: 150px;
+	padding: 50px;
+}
+
+
+.contenedor {
+	display: flex;
+	flex-direction: row;
+}
+
+.contenedor > div {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	width: 50%;
+}
+
+ #imagen1 {
+    width: 100%;
+  }
+
+figure {
+	text-align: center;
+	margin: 0.5px;
+}
+
+figure img {
+	width: 920px;
+}
+
+img{
+	width: 250px;
+}
+#imagen3:hover {
+ transform: rotate(10deg);
+}
+
+#imagen4:hover {
+	-webkit-transform: translate(5px,20px);
+}	
+
+.container .c3 {
+	color: black;
+	background-color:  #C6d5c5;
+	box-sizing: border-box;
+	min-width: 50px;
+	padding: 1px;
+}
+
+#imagen3 {
+ box-shadow:2px 2px 2px #82c3a6;
+  border: 2px black solid;
+}
+
+#imagen4 {
+ box-shadow:2px 2px 2px #82c3a6;
+  border: 2px black solid;
+}
+
+.footer {
+	text-align: center;
+	margin: 0px;
+	padding: 8vh 1vw;
+	margin-bottom: auto;
+	border-radius: 0 0 10px 10px;
+	background-color: #C6d5c5; 
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    -webkit-display: flex;
+    -webkit-flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    -webkit-align-items: flex-start;
+
+}
+
+.footer>div {
+  margin-left: auto;
+  margin-right: auto;
+
+  flex: 1 0;
+  -webkit-flex:1 0;
+}
+
+
+
+.footer>div>h2 {
+  display: inline;
+}
+
+.footer>div>a {
+  color: black;
+}
+#contacto {
+	 order: 1;
+  -webkit-order: 1;
+}
+
+#terminos {
+	order: 2;
+  -webkit-order: 2;
+}	
+#redes {
+	 order: 3;
+  -webkit-order: 3;
+}
+
+#derechos {
+	order: 4;
+  -webkit-order: 4;
+}	
+
+.red {
+	width: 20px; height: 20px;
+	
+  }
+
+
+  @media (max-width: 899px) {
+
+ .contenido {
+    margin: 0px;
+    width: 100%;
+  }
+
+ #imagen1 {
+    width: 100%;
+  }
+
+  #imagen3 {
+      flex-direction: column;
+      -webkit-flex-direction: column;
+  }
+
+ 
+
+  .contenedor {
+      flex-direction: column;
+      -webkit-flex-direction: column;
+  }
+
+   .footer {
+   	text-align: left;
+      flex-direction: column;
+      -webkit-flex-direction: column;
+  }
+
+header {
+    float: none;
+  }
+
+ }
+
+.paisajeyretrato {
+	background-color: #F4F1BB; 
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    -webkit-display: flex;
+    -webkit-flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    -webkit-align-items: flex-start;
+}
+
+
+#img1 {
+   order: 1;
+  -webkit-order: 1;
+  margin-top: 15px;
+   filter: blur(10px);
+}
+
+#img2 {
+	 order: 2;
+  -webkit-order: 2;
+  margin-top: 15px;
+  filter: grayscale(100%);
+}
+
+#img3 {
+  order: 3;
+  -webkit-order: 3;
+  margin-top: 15px;
+  filter: sepia(90%);
+}
+
+#img4 {
+  order: 4;
+  -webkit-order: 4;
+  filter: grayscale(100%);
+}
+
+#img5 {
+  order: 5;
+  -webkit-order: 5;
+}
+
+#img6 {
+  order: 6;
+  -webkit-order: 6;
+  filter: grayscale(100%);
+}
+
+
+
+
+
+
+ 
+
